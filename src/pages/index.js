@@ -95,9 +95,11 @@ const Home = props => {
             {" "}
             <Img fluid={props.data.front6.childImageSharp.fluid} />
             <Img fluid={props.data.front7.childImageSharp.fluid} />
+            <Img fluid={props.data.front24.childImageSharp.fluid} />
             <Img fluid={props.data.front8.childImageSharp.fluid} />
             <Img fluid={props.data.front18.childImageSharp.fluid} />
             <Img fluid={props.data.front19.childImageSharp.fluid} />
+            <Img fluid={props.data.front25.childImageSharp.fluid} />
             <Img fluid={props.data.front20.childImageSharp.fluid} />
             <Img fluid={props.data.front21.childImageSharp.fluid} />
             <Img fluid={props.data.front22.childImageSharp.fluid} />
@@ -118,12 +120,94 @@ const Home = props => {
                 happy to let you risk your life hurling yourself off the alps if
                 that was made you happy.
               </p>
-              <p></p>
+              <p>
+                One of my Australian friends bought a super ugly old Renault
+                station and we spent the summer driving around Europe camping
+                out of it. It had no air conditioning, and the drivers side
+                window would not roll down. We always thought for sure it would
+                break down at any moment, but it did. Driving from Switzerland
+                to Norway we stopped in Germany and stocked up on food since we
+                did not have enough money to eat out and Norway was extremely
+                expensive. We did not buy much alcohol because we all planned to
+                be up early each day hiking and jumping, and did not want to be
+                hungover. Well, we ran out of alcohol within the first week.
+                Turned out the weather in Norway was not known sunshine. It was
+                a big problem for us, because we were jumping off some very high
+                mountains and they were completely covered in clouds. Jumping
+                when you can't see what is below you is a death sentence.
+                Instead we spent the majority of our month there huddled inside
+                our tents while it poured rain on us, eating corn flakes for
+                dinner because we had not place to set up the camp stove in the
+                rain.
+              </p>
+              <p>
+                I did many more trips to Europe, but that first season will
+                always be the best. I met a ton of amazing people that year, it
+                seems like each year the number of them still alive goes down.
+                Even losing contact and not talking for years, I have random
+                memories of moments we had and suddenly feel sad remembering
+                that they are not around anymore. At the time lots of us were
+                parting hard, and doing lots of risky jumps. The philosophy
+                seemed to be "No one gets off this rock alive, let's have some
+                fun!".{" "}
+              </p>
             </div>
           </div>
         </div>
+        <div className={Styles.splitscroller}>
+          <div>
+            {" "}
+            <Img fluid={props.data.front26.childImageSharp.fluid} />
+            <Img fluid={props.data.front27.childImageSharp.fluid} />
+            <Img fluid={props.data.front28.childImageSharp.fluid} />
+            <Img fluid={props.data.front29.childImageSharp.fluid} />
+            <Img fluid={props.data.front25.childImageSharp.fluid} />
+            <Img fluid={props.data.front20.childImageSharp.fluid} />
+            <Img fluid={props.data.front21.childImageSharp.fluid} />
+            <Img fluid={props.data.front22.childImageSharp.fluid} />
+          </div>
 
-        <h2>Many Images, Lots of Text</h2>
+          <div>
+            <div>
+              <h2>Tandems</h2>
+              <p>
+                Getting my skydiving instructor rating to take passengers for
+                skydives with me was honestly terrifying. It was totally
+                different when you had someone else strapped to your front. It
+                was a different kind of terrifying than when you were learning
+                how to jump alone, this time you were not scared for yourself,
+                you were stressed because you had the responsibility for another
+                persons life. Tandem skydiving equipment was much more
+                complicated, and had entirely different emergency procedures.
+              </p>
+              <p>
+                Right after passing my instructor exam I started looking for
+                work. At the same time, an acquaintance of mine and her
+                passenger died in Mexico after getting stuck on the landing
+                strut while trying to exit. Hanging below the airplane the pilot
+                was unable to land, and there was no way to climb back inside
+                with the weight of two people and the gear. I got a call about a
+                job in the East Coast, and they wanted me there as soon as
+                possible. After working there for awhile I found out that the
+                instructor who had died in Mexico was supposed to work there,
+                and I was the replacement.{" "}
+              </p>
+
+              <p>
+                Tandems had a way of slowly lulling you into a sense of boredom,
+                and suddenly you would get a passenger who would ignore all your
+                training and attempt to unknowingly kill you both. To be fair,
+                it is pretty scary your first time and it is super easy to
+                forget all instructions.{" "}
+              </p>
+              <p>
+                I found it was super easy to travel while doing tandems, just
+                chase the summer around the world and you could always find some
+                work
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div className={Styles.splitscroller}>
           <div>
@@ -132,6 +216,7 @@ const Home = props => {
             <Img fluid={props.data.front12.childImageSharp.fluid} />
             <Img fluid={props.data.front13.childImageSharp.fluid} />
             <Img fluid={props.data.front14.childImageSharp.fluid} />
+
             <Img fluid={props.data.front15.childImageSharp.fluid} />
             <Img fluid={props.data.front16.childImageSharp.fluid} />
             <Img fluid={props.data.front17.childImageSharp.fluid} />
@@ -382,7 +467,7 @@ export const query = graphql`
         }
       }
     }
-    front20: file(relativePath: { eq: "swiss3.png" }) {
+    front20: file(relativePath: { eq: "norway.png" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
@@ -403,7 +488,42 @@ export const query = graphql`
         }
       }
     }
-    front23: file(relativePath: { eq: "landing.png" }) {
+    front23: file(relativePath: { eq: "landing.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front24: file(relativePath: { eq: "camping.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front25: file(relativePath: { eq: "full.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front26: file(relativePath: { eq: "out.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front27: file(relativePath: { eq: "Tandem1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front28: file(relativePath: { eq: "tandem4.png" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
