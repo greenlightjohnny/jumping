@@ -57,14 +57,17 @@
   h1 {
     font-size: 3rem;
     color: #f4f4f4;
+    padding-left: 2rem;
   }
   h2 {
     color: #f4f4f4;
+    padding-left: 2rem;
   }
 
   p {
     color: #f4f4f4;
     line-height: 1.4rem;
+    padding-left: 2rem;
   }
   .splitscroller {
     display: flex;
@@ -76,6 +79,9 @@
     > * {
       flex: 1 1 calc((30rem - 100%) * 9999);
       margin: 0 0 1em 1em;
+    }
+    > :first-child {
+      margin-top: 5rem;
     }
 
     > :last-child {
