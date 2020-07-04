@@ -141,14 +141,14 @@ const Home = props => {
 
         <div className={Styles.splitscroller}>
           <div>
-            <Img fluid={props.data.front10.childImageSharp.fluid} />
-            <Img fluid={props.data.front11.childImageSharp.fluid} />
-            <Img fluid={props.data.front12.childImageSharp.fluid} />
-            <Img fluid={props.data.front13.childImageSharp.fluid} />
-            <Img fluid={props.data.front14.childImageSharp.fluid} />
-            <Img fluid={props.data.front15.childImageSharp.fluid} />
-            <Img fluid={props.data.front16.childImageSharp.fluid} />
-            <Img fluid={props.data.front17.childImageSharp.fluid} />
+            <Img fluid={props.data.front18.childImageSharp.fluid} />
+            <Img fluid={props.data.front19.childImageSharp.fluid} />
+            <Img fluid={props.data.front22.childImageSharp.fluid} />
+            <Img fluid={props.data.front23.childImageSharp.fluid} />
+            <Img fluid={props.data.front24.childImageSharp.fluid} />
+            <Img fluid={props.data.front25.childImageSharp.fluid} />
+            <Img fluid={props.data.front26.childImageSharp.fluid} />
+            <Img fluid={props.data.front27.childImageSharp.fluid} />
           </div>
 
           <div>
@@ -353,6 +353,55 @@ export const query = graphql`
       }
     }
     front17: file(relativePath: { eq: "a8.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front18: file(relativePath: { eq: "swiss2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front19: file(relativePath: { eq: "swiss1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front20: file(relativePath: { eq: "swiss3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front21: file(relativePath: { eq: "swiss4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front22: file(relativePath: { eq: "swiss5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front23: file(relativePath: { eq: "swiss6.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front24: file(relativePath: { eq: "swiss7.png" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
