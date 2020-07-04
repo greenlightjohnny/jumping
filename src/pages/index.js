@@ -31,9 +31,9 @@ const Home = props => {
             <Img fluid={props.data.front3.childImageSharp.fluid} />
             <Img fluid={props.data.front4.childImageSharp.fluid} />
             <Img fluid={props.data.front5.childImageSharp.fluid} />
-            <Img fluid={props.data.front6.childImageSharp.fluid} />
-            <Img fluid={props.data.front7.childImageSharp.fluid} />
-            <Img fluid={props.data.front8.childImageSharp.fluid} />
+            <Img fluid={props.data.front1a.childImageSharp.fluid} />
+            <Img fluid={props.data.front2a.childImageSharp.fluid} />
+            <Img fluid={props.data.front23.childImageSharp.fluid} />
           </div>
 
           <div>
@@ -86,6 +86,26 @@ const Home = props => {
                 your parachute and your hand missed the handle, that was
                 probably the only chance you would get.
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={Styles.splitscroller}>
+          <div>
+            {" "}
+            <Img fluid={props.data.front6.childImageSharp.fluid} />
+            <Img fluid={props.data.front7.childImageSharp.fluid} />
+            <Img fluid={props.data.front8.childImageSharp.fluid} />
+            <Img fluid={props.data.front18.childImageSharp.fluid} />
+            <Img fluid={props.data.front19.childImageSharp.fluid} />
+            <Img fluid={props.data.front20.childImageSharp.fluid} />
+            <Img fluid={props.data.front21.childImageSharp.fluid} />
+            <Img fluid={props.data.front22.childImageSharp.fluid} />
+          </div>
+
+          <div>
+            <div>
+              <h2>Europe BASE</h2>
               <p>
                 After a bunch of clandestine nighttime tower and building jumps
                 I wanted more. BASE jumping being illegal in US National Parks
@@ -98,9 +118,12 @@ const Home = props => {
                 happy to let you risk your life hurling yourself off the alps if
                 that was made you happy.
               </p>
+              <p></p>
             </div>
           </div>
         </div>
+
+        <h2>Many Images, Lots of Text</h2>
 
         <div className={Styles.splitscroller}>
           <div>
@@ -112,43 +135,15 @@ const Home = props => {
             <Img fluid={props.data.front15.childImageSharp.fluid} />
             <Img fluid={props.data.front16.childImageSharp.fluid} />
             <Img fluid={props.data.front17.childImageSharp.fluid} />
-          </div>
 
-          <div>
-            <div>
-              <h2>Close Calls</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                condimentum augue sit amet ligula euismod consectetur. Praesent
-                in ultricies erat. Sed et auctor odio, at volutpat nisi. Ut
-                iaculis tincidunt ornare. Suspendisse metus erat, bibendum eu
-                tristique sit amet, efficitur a justo. Maecenas pharetra dolor
-                non dui euismod tincidunt. Morbi hendrerit faucibus turpis, quis
-                auctor elit. Integer at tortor at tellus fermentum faucibus nec
-                non turpis. Aliquam varius, lacus et euismod iaculis, erat erat
-                suscipit libero, vitae semper risus velit tincidunt nunc. Cras
-                varius sit amet turpis vel molestie. Curabitur a magna vitae ex
-                rhoncus suscipit dictum eu nisl. Donec mauris tellus, euismod
-                nec posuere hendrerit, pulvinar sed nunc. Sed id pulvinar quam,
-                ut posuere leo. Integer fermentum augue vel ex congue, pulvinar
-                ullamcorper enim bibendum.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <h2>Many Images, Lots of Text</h2>
-
-        <div className={Styles.splitscroller}>
-          <div>
-            <Img fluid={props.data.front18.childImageSharp.fluid} />
+            {/* 
             <Img fluid={props.data.front19.childImageSharp.fluid} />
             <Img fluid={props.data.front22.childImageSharp.fluid} />
             <Img fluid={props.data.front23.childImageSharp.fluid} />
             <Img fluid={props.data.front24.childImageSharp.fluid} />
             <Img fluid={props.data.front25.childImageSharp.fluid} />
             <Img fluid={props.data.front26.childImageSharp.fluid} />
-            <Img fluid={props.data.front27.childImageSharp.fluid} />
+            <Img fluid={props.data.front27.childImageSharp.fluid} /> */}
           </div>
 
           <div>
@@ -236,6 +231,20 @@ const Home = props => {
 export const query = graphql`
   query {
     front1: file(relativePath: { eq: "main.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front1a: file(relativePath: { eq: "au.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front2a: file(relativePath: { eq: "au2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
@@ -359,14 +368,14 @@ export const query = graphql`
         }
       }
     }
-    front18: file(relativePath: { eq: "swiss2.jpg" }) {
+    front18: file(relativePath: { eq: "swiss1.png" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    front19: file(relativePath: { eq: "swiss1.png" }) {
+    front19: file(relativePath: { eq: "swiss2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
@@ -394,14 +403,7 @@ export const query = graphql`
         }
       }
     }
-    front23: file(relativePath: { eq: "swiss6.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1900) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    front24: file(relativePath: { eq: "swiss7.png" }) {
+    front23: file(relativePath: { eq: "landing.png" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
@@ -411,3 +413,32 @@ export const query = graphql`
   }
 `
 export default Home
+
+// front18: file(relativePath: { eq: "swiss2.png }) {
+//   childImageSharp {
+//     fluid(maxWidth: 1900) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
+// front19: file(relativePath: { eq: "swiss1.png" }) {
+//   childImageSharp {
+//     fluid(maxWidth: 1900) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
+// front20: file(relativePath: { eq: "swiss3.png" }) {
+//   childImageSharp {
+//     fluid(maxWidth: 1900) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
+// front21: file(relativePath: { eq: "swiss4.png" }) {
+//   childImageSharp {
+//     fluid(maxWidth: 1900) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
