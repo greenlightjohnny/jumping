@@ -93,15 +93,14 @@ const Home = props => {
         <div className={Styles.splitscroller}>
           <div>
             {" "}
-            <Img fluid={props.data.front6.childImageSharp.fluid} />
-            <Img fluid={props.data.front7.childImageSharp.fluid} />
-            <Img fluid={props.data.front24.childImageSharp.fluid} />
             <Img fluid={props.data.front8.childImageSharp.fluid} />
+            <Img fluid={props.data.front24.childImageSharp.fluid} />
             <Img fluid={props.data.front18.childImageSharp.fluid} />
             <Img fluid={props.data.front19.childImageSharp.fluid} />
             <Img fluid={props.data.front25.childImageSharp.fluid} />
+            <Img fluid={props.data.front7.childImageSharp.fluid} />
             <Img fluid={props.data.front20.childImageSharp.fluid} />
-            <Img fluid={props.data.front21.childImageSharp.fluid} />
+            {/* <Img fluid={props.data.front21.childImageSharp.fluid} /> */}
             <Img fluid={props.data.front22.childImageSharp.fluid} />
           </div>
 
@@ -161,10 +160,8 @@ const Home = props => {
             <Img fluid={props.data.front27.childImageSharp.fluid} />
             <Img fluid={props.data.front28.childImageSharp.fluid} />
             <Img fluid={props.data.front29.childImageSharp.fluid} />
-            <Img fluid={props.data.front25.childImageSharp.fluid} />
-            <Img fluid={props.data.front20.childImageSharp.fluid} />
-            <Img fluid={props.data.front21.childImageSharp.fluid} />
-            <Img fluid={props.data.front22.childImageSharp.fluid} />
+            <Img fluid={props.data.front32.childImageSharp.fluid} />
+            <Img fluid={props.data.front31.childImageSharp.fluid} />
           </div>
 
           <div>
@@ -203,7 +200,13 @@ const Home = props => {
               <p>
                 I found it was super easy to travel while doing tandems, just
                 chase the summer around the world and you could always find some
-                work
+                work. Getting to travel and sometimes do tandems in New Zealand,
+                China, Germany, Switzerland, Italy, Norway, and Colombia was an
+                amazing time. On the negative side you were living out of a
+                suitcase for years, and your income was directly tied to the
+                weather on the weekend. It was difficult to plan ahead not
+                knowing what your financial status was. Relationships also were
+                almost impossible unless they were also traveling with you.
               </p>
             </div>
           </div>
@@ -220,6 +223,13 @@ const Home = props => {
             <Img fluid={props.data.front15.childImageSharp.fluid} />
             <Img fluid={props.data.front16.childImageSharp.fluid} />
             <Img fluid={props.data.front17.childImageSharp.fluid} />
+            <Img fluid={props.data.front33.childImageSharp.fluid} />
+
+            <Img fluid={props.data.front34.childImageSharp.fluid} />
+            <Img fluid={props.data.front38.childImageSharp.fluid} />
+            <Img fluid={props.data.front35.childImageSharp.fluid} />
+            <Img fluid={props.data.front36.childImageSharp.fluid} />
+            <Img fluid={props.data.front37.childImageSharp.fluid} />
 
             {/* 
             <Img fluid={props.data.front19.childImageSharp.fluid} />
@@ -233,77 +243,55 @@ const Home = props => {
 
           <div>
             <div>
+              <h2>Close Calls</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                condimentum augue sit amet ligula euismod consectetur. Praesent
-                in ultricies erat. Sed et auctor odio, at volutpat nisi. Ut
-                iaculis tincidunt ornare. Suspendisse metus erat, bibendum eu
-                tristique sit amet, efficitur a justo. Maecenas pharetra dolor
-                non dui euismod tincidunt. Morbi hendrerit faucibus turpis, quis
-                auctor elit. Integer at tortor at tellus fermentum faucibus nec
-                non turpis. Aliquam varius, lacus et euismod iaculis, erat erat
-                suscipit libero, vitae semper risus velit tincidunt nunc. Cras
-                varius sit amet turpis vel molestie. Curabitur a magna vitae ex
-                rhoncus suscipit dictum eu nisl. Donec mauris tellus, euismod
-                nec posuere hendrerit, pulvinar sed nunc. Sed id pulvinar quam,
-                ut posuere leo. Integer fermentum augue vel ex congue, pulvinar
-                ullamcorper enim bibendum.
+                Taking people for tandems was usually pretty safe, but there
+                were plenty of times where it could have gone wrong. This is a
+                sequence of photos that looks pretty safe but could have been
+                much worse.
               </p>
               <p>
-                Mauris in consequat enim. Sed vitae nisi risus. Donec at odio
-                mauris. Nulla lorem libero, interdum ut tristique sit amet,
-                congue ac risus. Fusce id eros at dui egestas blandit nec at
-                turpis. Aenean dignissim est non erat condimentum ornare. Sed
-                accumsan nunc nisi, in facilisis est cursus ac. Nulla pharetra
-                lorem libero, a scelerisque nisl sagittis non. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Donec consequat ipsum vel tellus finibus lacinia.
-                Aliquam eu neque diam. Nam volutpat finibus urna, non porttitor
-                nulla. Donec ac pellentesque nibh. Suspendisse egestas, eros sit
-                amet convallis aliquam, magna ligula pulvinar neque, eget
-                ultrices purus felis ac massa.
+                It starts with me in the door of a PC-6 Porter somewhere over
+                China. You might notice I am not smiling in the first photo.
+                That is because I was not a happy camper due to the cloud cover.
+                Without being able to see the ground we had to rely on the GPS,
+                and there had been miss-communications in the past leading to me
+                ending up miles away from the landing area. My passenger has her
+                hands on the harness, exactly where they are supposed to be.
               </p>
               <p>
-                Mauris in consequat enim. Sed vitae nisi risus. Donec at odio
-                mauris. Nulla lorem libero, interdum ut tristique sit amet,
-                congue ac risus. Fusce id eros at dui egestas blandit nec at
-                turpis. Aenean dignissim est non erat condimentum ornare. Sed
-                accumsan nunc nisi, in facilisis est cursus ac. Nulla pharetra
-                lorem libero, a scelerisque nisl sagittis non. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Donec consequat ipsum vel tellus finibus lacinia.
-                Aliquam eu neque diam. Nam volutpat finibus urna, non porttitor
-                nulla. Donec ac pellentesque nibh. Suspendisse egestas, eros sit
-                amet convallis aliquam, magna ligula pulvinar neque, eget
-                ultrices purus felis ac massa.
+                The second we exited, my passenger grabbed onto my left arm. My
+                left arm was in front of her where she could see it because I
+                had a video camera on it to film the jump. I use both my arms
+                and legs on exit to get stable and toss the drogue out, a small
+                parachute that provides enough drag to slow us two the fall
+                right of an average person alone. The drogue is deployed using
+                your right hand, within the first 3-7 seconds of the jump
+                normally. You must be stable and belly to earth when you deploy
+                it, otherwise it can become tangled around you, leading to a
+                possible death.
               </p>
               <p>
-                Mauris in consequat enim. Sed vitae nisi risus. Donec at odio
-                mauris. Nulla lorem libero, interdum ut tristique sit amet,
-                congue ac risus. Fusce id eros at dui egestas blandit nec at
-                turpis. Aenean dignissim est non erat condimentum ornare. Sed
-                accumsan nunc nisi, in facilisis est cursus ac. Nulla pharetra
-                lorem libero, a scelerisque nisl sagittis non. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Donec consequat ipsum vel tellus finibus lacinia.
-                Aliquam eu neque diam. Nam volutpat finibus urna, non porttitor
-                nulla. Donec ac pellentesque nibh. Suspendisse egestas, eros sit
-                amet convallis aliquam, magna ligula pulvinar neque, eget
-                ultrices purus felis ac massa.
+                In the photos you can see I end up slightly head down, but
+                facing the same direction the airplane had been traveling. This
+                meant I was still traveling forwards some in the same direction,
+                since we had been moving close to 100mph on exit. I could not
+                toss the drogue in this position because it would end up back
+                where my legs were. I also had one hand captured by my
+                passengers arm, so I was unable to immediately use it to turn
+                180 degrees. I had my other hand on the drogue, and did not want
+                to put it back out to use it to turn, for fear my passenger
+                would grab onto it as well.
               </p>
               <p>
-                Mauris in consequat enim. Sed vitae nisi risus. Donec at odio
-                mauris. Nulla lorem libero, interdum ut tristique sit amet,
-                congue ac risus. Fusce id eros at dui egestas blandit nec at
-                turpis. Aenean dignissim est non erat condimentum ornare. Sed
-                accumsan nunc nisi, in facilisis est cursus ac. Nulla pharetra
-                lorem libero, a scelerisque nisl sagittis non. Orci varius
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. Donec consequat ipsum vel tellus finibus lacinia.
-                Aliquam eu neque diam. Nam volutpat finibus urna, non porttitor
-                nulla. Donec ac pellentesque nibh. Suspendisse egestas, eros sit
-                amet convallis aliquam, magna ligula pulvinar neque, eget
-                ultrices purus felis ac massa.
+                It all happens very fast, but if I had panicked and thrown the
+                drogue as soon my arm was grabbed, it could have become
+                entangled around our legs. Instead I had to calmly wait until
+                our steep dive leveled out before throwing the drogue. My right
+                hand was on it and ready to throw, just had to wait. Normally I
+                would try and face the camera man, but this time I had more
+                pressing concerns! All smiles on landing, there is no point in
+                telling them they tried to call you.
               </p>
             </div>
           </div>
@@ -524,6 +512,76 @@ export const query = graphql`
       }
     }
     front28: file(relativePath: { eq: "tandem4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front29: file(relativePath: { eq: "tandem5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front30: file(relativePath: { eq: "tandem5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front31: file(relativePath: { eq: "tandem11.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front32: file(relativePath: { eq: "tandem3.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front33: file(relativePath: { eq: "b1.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front34: file(relativePath: { eq: "b2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front35: file(relativePath: { eq: "b3.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front36: file(relativePath: { eq: "b4.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front37: file(relativePath: { eq: "b5.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1900) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    front38: file(relativePath: { eq: "b22.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1900) {
           ...GatsbyImageSharpFluid
