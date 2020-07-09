@@ -1,9 +1,11 @@
 import React from "react"
 import Styles from "./main.module.scss"
 import Img from "gatsby-image"
+import { Helmet } from "react-helmet"
 const Home = props => {
   return (
     <div>
+      <Helmet title="Five Years Falling" />
       <div className={Styles.landing}>
         {/* <Img
           style={{
@@ -20,8 +22,8 @@ const Home = props => {
           <h1>Five Years of Falling</h1>
           <p>
             {" "}
-            Random stories and images from my time as a tandem skydiving
-            instructor
+            Random stories and images from my time traveling the world as a
+            tandem skydiving instructor
           </p>
         </div>
       </div>{" "}
