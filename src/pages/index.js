@@ -2,6 +2,7 @@ import React from "react"
 import Styles from "./main.module.scss"
 import Img from "gatsby-image"
 import { Helmet } from "react-helmet"
+
 const Home = props => {
   return (
     <div>
